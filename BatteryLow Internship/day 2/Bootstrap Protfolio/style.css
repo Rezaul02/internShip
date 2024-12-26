@@ -1,0 +1,63 @@
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --margint:90px
+  }
+  
+  /* Smooth scroll effect */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+  
+.banner{
+    
+}
+.row{
+    align-items: center;
+}
+.extext{
+    margin-top: 100px;
+}
+.img-height{
+    height:170px;
+}
+.abimg1{
+    width:500px;
+    height:300px;
+}
+.margint{
+    margin-top: var(--margint);
+}
+
+/*Client feedback*/
+.staricon{
+    width: 5px;
+}
+
+ul li a{
+    
+}
+
+
+.backshadow{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 5px;
+}
+.white-hr {
+    border: 1px solid rgb(15, 15, 15);
+    background-color: rgb(186, 19, 19);
+    display: block;
+  }
+

@@ -1,0 +1,18 @@
+.app-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .sidebar {
+    width: 20%; /* Sidebar takes 20% of the width */
+    background-color: #333; /* Adjust background color as needed */
+    color: white;
+    padding: 1rem; /* Optional padding */
+  }
+  
+  .content {
+    width: 80%; /* Content takes 80% of the width */
+    padding: 1rem; /* Optional padding */
+    overflow-y: auto; /* Ensures scrolling for content if needed */
+  }
+  

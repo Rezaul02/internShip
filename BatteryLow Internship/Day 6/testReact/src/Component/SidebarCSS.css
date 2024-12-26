@@ -1,0 +1,86 @@
+/* General Sidebar Styling */
+.sidebar {
+  width: 20%;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow-y: auto; /* Scrollable if content overflows */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+  width: 120px; /* Adjust size */
+  height: 120px; /* Match width for a perfect circle */
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 1rem;
+  border: 3px solid white; /* Border for contrast */
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Heading Styling */
+.sidebar h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: uppercase for a bold look */
+  color: white;
+}
+
+/* Navigation Menu Styling */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Take full width of the sidebar */
+}
+
+.sidebar ul li {
+  text-align: left; /* Align items to the left */
+  margin-bottom: 1rem; /* Space between list items */
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1rem; /* Space around text */
+  border-radius: 8px; /* Rounded corners for links */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+  transform: translateX(5px); /* Slide slightly to the right */
+}
+
+/* Active Link Styling */
+.sidebar ul li a.active {
+  background-color: rgba(255, 255, 255, 0.3); /* Highlight active link */
+  font-weight: bold;
+}
+
+/* Scrollbar Styling (Optional) */
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Subtle scrollbar thumb */
+  border-radius: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}

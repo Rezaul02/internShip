@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(228, 228, 228);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f2e2e;
+}
+
+.navbar li {
+    float: left;
+
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#active {
+    background-color: white;
+    color: #FA057E;
+}
+
+/* Subscontainer*/
+
+.Subcontainer {
+    background-color: #000000;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin-top: 5px;
+}
+
+#title {
+    color: rgb(254, 0, 59);
+}
+
+.subdiv1 {
+    width: 70%;
+    padding: 10px;
+
+}
+
+.subdiv2 {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+.subdiv1 p {
+    color: white;
+}
+
+a {
+    color: white;
+
+}
+
+
+
+/*example*/
+.image-text {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image-text img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.image-text.left img {
+    order: -1;
+}
+
+.image-text.center {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-text.right {
+    justify-content: flex-end;
+}
+
+.image-text.right img {
+    order: 1;
+}
+
+table {
+
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+td,
+th {
+    border: 2px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr {
+    background-color: rgb(203, 203, 203);
+}
+
+/*Contact page css degine below that */
+.contact_form {
+    display: flex;
+
+}
+
+
+/*footer*/
+.footer p{
+    
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+}

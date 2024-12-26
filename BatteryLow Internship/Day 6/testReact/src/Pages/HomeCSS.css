@@ -1,0 +1,12 @@
+.home-container h1 {
+    font-size: 6rem;
+    margin-bottom: 0.5rem; /* Space between h1 and h3 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+  }
+  
+  .home-container h3 {
+    font-size: 1.5rem;
+    font-weight: 300; /* Optional: lighter font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow for readability */
+  }
+  

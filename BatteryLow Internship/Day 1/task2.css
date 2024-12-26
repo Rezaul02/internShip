@@ -1,0 +1,13 @@
+body{
+    background-color: chocolate;
+}
+.color{
+    background-color: greenyellow;
+    opacity: 0,3;
+}
+.color h1{
+    border-style: dashed;
+}
+.color h2{
+    border-style:double;
+}
